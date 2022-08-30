@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert movie</title>
+</head>
+<body>
+
+	<form action= "../jsp/InsertMovieDB.jsp" name="InsertMovieHtml" method= "post">
+		
+		<label for="title">Title:</label>
+		<input id="title" name="titleMovie" placeholder="Title" type="text" pattern="[a-zA-Z0-9' ]+" required>
+		<br>
+		
+		<label for="runTime">Runtime in minutes:</label>
+		<input id="runTime" name="runTimeMovie" placeholder="Number of minutes" type="number" pattern="[0-9]+" required>
+		<br>
+		
+		<label for="releaseYear">Release Year:</label>
+		<input id="releaseYear" name="releaseYearMovie" placeholder="Release year" type="number" pattern="[0-9]+" required>
+		<br>
+		
+		<label for="production">Production:</label>
+		<input id="production" name="productionMovie" placeholder="Production" type="text" pattern="[a-zA-Z0-9' ]+" required>
+		<br>
+		
+		<input type="submit" value="Insert movie">
+		
+	</form>
+	
+	<form action= "Insert.html" method="post">
+		<input type="submit" value="Back to insert"/>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,349 @@
+@charset "ISO-8859-1";
+
+#tableMovies {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 8px;
+	
+	border-color: GhostWhite;
+	color: orange;
+	background-color: DimGrey;
+	
+	position: absolute;
+	right: 12%;
+	top: 50%;
+	width: auto;
+	
+}
+
+#tableMovies td, #tableMovies th {
+  border: 1px solid GhostWhite;
+  padding: 8px;
+}
+
+#tableMovies tr:hover {
+	
+	background-color: Grey;
+	
+}
+
+#tableActors {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 8px;
+	
+	border-color: GhostWhite;
+	color: orange;
+	background-color: DimGrey;
+	
+	position: absolute;
+	right: 12%;
+	top: 50%;
+	width: auto;
+	
+}
+
+#tableActors td, #tableActors th {
+	
+  border: 1px solid GhostWhite;
+  padding: 8px;
+  
+}
+
+#tableActors tr:hover {
+	
+	background-color: Grey;
+	
+}
+
+#backButton {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: GhostWhite;
+	background-color: DimGrey;
+	color: coral;
+	
+	position: absolute;
+	right: 18%;
+	top: 43%;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+}
+
+body {
+	
+	background-image: url("..//images/Background_2.jpg");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	
+}
+
+
+#selectActors {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: GhostWhite;
+	background-color: DimGrey;
+	color: black;
+	
+	position: absolute;
+	right: 25%;
+	top: 43%;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+}
+
+#selectMovies {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: GhostWhite;
+	background-color: DimGrey;
+	color: black;
+	
+	position: absolute;
+	right: 14%;
+	top: 43%;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+}
+
+#selectBack {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: GhostWhite;
+	background-color: DimGrey;
+	color: black;
+	
+	position: absolute;
+	right: 19%;
+	top: 54%;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+}
+
+#labelName {
+	
+	color: coral;
+	background-color: none;
+	
+	position: absolute;
+	right: 40%;
+	top: 40.3%;
+	
+}
+
+#labelSurname {
+	
+	color: coral;
+	background-color: none;
+	
+	position: absolute;
+	right: 40%;
+	top: 43.3%;
+	
+}
+
+#labelMale {
+	
+	color: coral;
+	background-color: none;
+	
+	position: absolute;
+	right: 32.5%;
+	top: 48%;
+	
+}
+
+#labelFemale {
+	
+	color: coral;
+	background-color: none;
+	
+	position: absolute;
+	right: 35.5%;
+	top: 48%;
+	
+}
+
+#labelTitle {
+	
+	color: coral;
+	background-color: none;
+	
+	position: absolute;
+	right: 40%;
+	top: 40.3%;
+	
+}
+
+#labelReleaseYear {
+	
+	color: coral;
+	background-color: none;
+	
+	position: absolute;
+	right: 40%;
+	top: 43.3%;
+	
+}
+
+#labelProduction {
+	
+	color: coral;
+	background-color: none;
+	
+	position: absolute;
+	right: 40%;
+	top: 46.3%;
+	
+}
+
+#nameActor {
+	
+	color: coral;
+	background-color: DimGrey;
+	
+	position: absolute;
+	right: 30%;
+	top: 40%;
+	
+}
+
+#surnameActor {
+	
+	color: coral;
+	background-color: DimGrey;
+	
+	position: absolute;
+	right: 30%;
+	top: 43%;
+	
+}
+
+#checkMale {
+	
+	position: absolute;
+	right: 33%;
+	top: 46%;
+	
+}
+
+#checkFemale {
+	
+	position: absolute;
+	right: 36%;
+	top: 46%;
+		
+}
+
+#title {
+	
+	color: coral;
+	background-color: DimGrey;
+	
+	position: absolute;
+	right: 30%;
+	top: 40%;
+	
+}
+
+#releaseYear {
+	
+	color: coral;
+	background-color: DimGrey;
+	
+	position: absolute;
+	right: 30%;
+	top: 43%;
+	
+}
+
+#production {
+	
+	color: coral;
+	background-color: DimGrey;
+	
+	position: absolute;
+	right: 30%;
+	top: 46%;
+	
+}
+
+#selectActorsButton {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: GhostWhite;
+	background-color: DimGrey;
+	color: black;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+	position: absolute;
+	right: 40%;
+	top: 50%;
+	
+}
+
+#selectMoviesButton {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: GhostWhite;
+	background-color: DimGrey;
+	color: black;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+	position: absolute;
+	right: 40%;
+	top: 50%;
+	
+}
+
+#backToSelectButton {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: GhostWhite;
+	background-color: DimGrey;
+	color: black;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+	position: absolute;
+	right: 20%;
+	top: 50%;
+	
+}

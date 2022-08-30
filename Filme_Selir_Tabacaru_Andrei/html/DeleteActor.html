@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Delete Actor</title>
+</head>
+<body>
+	
+	<form action= "../jsp/DeleteActorDB.jsp" name="Delete actor: " id="delete-actor" method="post">
+	
+		<label for= "deleteActorId">Id:</label>
+		<input id="deleteActorId" name="actorId" placeholder="Actor Id" required type="number"/>
+		<br>
+		
+		<input type="submit" value="Delete actor" id="deleteActorButton"/>
+		
+	</form>
+	
+	<form action= "Delete.html" id="form-main" method="post">
+		<input type="submit" value="Back to delete" id="goBackMain"/>
+	</form>
+	
+</body>
+</html>

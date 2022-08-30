@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="../css/Main_page.css">
+<title>Login</title>
+</head>
+<body>
+
+	<div></div>
+	
+	<form action= "../jsp/Login.jsp" method="post">
+		<label for="username" id="labelUsername">Username:</label>
+		<input id="username" name="username" placeholder="username" type="text" pattern="[a-zA-Z0-9]+"/>
+		
+		<label for="password" id="labelPassword">Password:</label>
+		<input id="password" name="password" placeholder="password" pattern="[a-zA-Z0-9]+" required type="password"/>
+		
+		<input type="submit" value="Login as admin" id="loginButton">
+	</form>
+	
+	<form action= "../jsp/Main.jsp" method="post">
+		<input type="submit" value="Continue as user" id="userButton">
+	</form>
+	    
+</body>
+</html>

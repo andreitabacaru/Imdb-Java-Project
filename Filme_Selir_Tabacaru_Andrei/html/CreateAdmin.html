@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create an admin</title>
+</head>
+<body>
+	
+	<form action="../jsp/CreateAdminDB.jsp">
+		
+		<label for="username">Username:</label>
+		<input id="username" name="username" placeholder="username" type="text" pattern="[a-zA-Z0-9]+"/>
+		
+		<label for="password">Password:</label>
+		<input id="password" name="password" placeholder="password" pattern="[a-zA-Z0-9]+" required type="password"/>
+		
+		<input type="submit" value="Create admin">
+		
+	</form>
+	
+	<form action="../jsp/MainAdmin.jsp">
+		<input type="submit" value="Back to main">
+	</form>
+	
+</body>
+</html>

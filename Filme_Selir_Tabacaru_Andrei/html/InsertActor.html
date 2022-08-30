@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert Actor</title>
+</head>
+<body>
+
+	<form action= "../jsp/InsertActorDB.jsp" name="InsertActorHtml" id="form-actor" method="post">
+		<label for="numeActor">Name:</label>
+		<input id="numeActor" name="nume" placeholder="Actor's name" required type="text" pattern="[a-zA-Z]+"/>
+		<br>
+		
+		<label for="prenumeActor">Surname:</label>
+		<input id="prenumeActor" name="prenume" placeholder="Actor's surname" required type="text" pattern="[a-zA-Z]+"/>
+		<br>
+		
+		<label for="dataNasteriiActor">Date of Birth:</label>
+		<input id="dataNasteriiActor" name="dataNasterii" required type="date"/>
+		<br>
+		
+		<fieldset data-role="controlgroup" id="sexActor">
+			<legend>Sex:</legend>
+			<input name="sex" id="radio-choice-1a" data-mini="true" value="masculin" type="radio" required/>
+			<label for="radio-choice-1a">Male</label>
+			<input name="sex" id="radio-choice-1b" data-mini="true" value="feminin" type="radio"/>
+			<label for="radio-choice-1b">Female</label>
+		</fieldset>
+		<br>
+		
+		<input type="submit" value="Insert actor" id="introduActorButon"/>
+	</form>
+	
+	<form action= "Insert.html" id="form-main" method="post">
+		<input type="submit" value="Back to insert" id="goBackMain"/>
+	</form>
+	
+</body>
+</html>

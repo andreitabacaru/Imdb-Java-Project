@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Update Actor</title>
+</head>
+<body>
+		
+	<form action="../jsp/UpdateActorDB.jsp" name="Update actor" id="update-actor" method="post">
+	
+		<label for="idActor">Id Actor:</label>
+		<input id="idActor" name="actorId" placeholder="id" required type="number"/>
+		<br>
+		
+		<label for="numeActor">Name:</label>
+		<input id="numeActor" name="actorNume" placeholder="Actor's name" type="text" pattern="[a-zA-Z]+"/>
+		
+		<label for="prenumeActor">Surname:</label>
+		<input id="prenumeActor" name="actorPrenume" placeholder="Actor's surname" type="text" pattern="[a-zA-Z]+"/>
+		
+		<label for="dataNasteriiActor">Data nasterii:</label>
+		<input id="dataNasteriiActor" name="actorDataNasterii" type="date"/>
+		<br>
+		
+		<fieldset data-role="controlgroup" id="sexActor">
+			<legend>Sex:</legend>
+			<input name="sex" id="radio-choice-1a" data-mini="true" value="masculin" type="radio"/>
+			<label for="radio-choice-1a">Male</label>
+			<input name="sex" id="radio-choice-1b" data-mini="true" value="feminin" type="radio"/>
+			<label for="radio-choice-1b">Female</label>
+		</fieldset>
+		<br>
+		
+		<input type="submit" value="Update actor" id="updateActorButton"/>
+		
+	</form>
+	
+	<form action= "Update.html" id="form-main" method="post">
+		<input type="submit" value="Back to update" id="goBackMain"/>
+	</form>
+		
+</body>
+</html>

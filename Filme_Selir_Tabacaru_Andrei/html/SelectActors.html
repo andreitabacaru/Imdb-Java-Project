@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>	
+<meta charset="ISO-8859-1">
+<title>Select Actors</title>
+<link rel="stylesheet" href="../css/Select_page.css">
+</head>
+<body>
+	
+	<div></div>
+	
+	<form action= "../jsp/SelectActorsDB.jsp" name="Select actori: " method="post">
+	
+		<label for="nameActor" id="labelName">Name:</label>
+		<input id="nameActor" name="actorNume" placeholder="Actor's name" type="text" pattern="[a-zA-Z]+"/>
+		<br>
+		
+		<label for="surnameActor" id="labelSurname">Surname:</label>
+		<input id="surnameActor" name="actorPrenume" placeholder="Actor's surname" type="text" pattern="[a-zA-Z]+"/>
+		<br>
+		
+		<input name="sex" id="checkMale" data-mini="true" value="masculin" type="radio"/>
+			<label for="checkMale" id="labelMale">Male</label>
+		<input name="sex" id="checkFemale" data-mini="true" value="feminin" type="radio"/>
+			<label for="checkFemale" id="labelFemale">Female</label>
+		
+		
+		<input type="submit" value="Select actors" id="selectActorsButton"/>
+	</form>
+	
+	<form action= "Select.html" id="form-main" method="post">
+		<input type="submit" value="Back to select" id="backToSelectButton"/>
+	</form>
+	
+</body>
+</html>

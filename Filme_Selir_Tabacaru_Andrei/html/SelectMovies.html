@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="../css/Select_page.css">
+<title>Select movies</title>
+</head>
+<body>
+	
+	<div></div>
+	
+	<form action="../jsp/SelectMoviesDB.jsp" method="post">
+		
+		<label for="title" id="labelTitle">Title:</label>
+		<input id="title" name="titleMovie" placeholder="Title" type="text" pattern="[a-zA-Z0-9' ]+">
+		<br>
+		
+		<label for="releaseYear" id="labelReleaseYear">Release Year:</label>
+		<input id="releaseYear" name="releaseYearMovie" placeholder="Release year" type="number" pattern="[0-9]+">
+		<br>
+		
+		<label for="production" id="labelProduction">Production:</label>
+		<input id="production" name="productionMovie" placeholder="Production" type="text" pattern="[a-zA-Z0-9' ]+">
+		<br>
+		
+		<input type="submit" value="Select movies" id="selectMoviesButton">
+		
+	</form>
+	
+	<form action= "Select.html" method="post">
+		<input type="submit" value="Back to select" id="backToSelectButton"/>
+	</form>
+	
+</body>
+</html>

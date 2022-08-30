@@ -1,0 +1,131 @@
+@charset "ISO-8859-1";
+
+body {
+	
+	background-image: url("../images/Background_1.jpg");
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	
+}
+
+
+
+#username{
+	
+	color: black;
+	background-color: yellow;
+	
+	position: absolute;
+	right: 60%;
+	top: 20%;
+	
+}
+
+#password{
+	
+	color: black;
+	background-color: yellow;
+	
+	position: absolute;
+	right: 60%;
+	top: 23%;
+	
+}
+
+#labelUsername {
+	
+	color: black;
+	background-color: none;
+	
+	position: absolute;
+	right: 70%;
+	top: 20.3%;
+	
+}
+
+#labelPassword {
+	
+	color: black;
+	background-color: none;
+	
+	position: absolute;
+	right: 70%;
+	top: 23.3%;
+	
+}
+
+#userButton {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: orange;
+	background-color: coral;
+	color: black;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+	position: absolute;
+	right: 53%;
+	top: 27%;
+	
+}
+
+#loginButton {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: orange;
+	background-color: coral;
+	color: black;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+	position: absolute;
+	right: 65%;
+	top: 27%;
+	
+}
+
+#selectButton {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: orange;
+	background-color: coral;
+	color: black;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+	position: absolute;
+	right: 65%;
+	top: 27%;
+	
+}
+
+#backToLoginButton {
+	
+	border: solid;
+	border-width: medium;
+	border-radius: 10px;
+	
+	border-color: orange;
+	background-color: coral;
+	color: black;
+	
+	font-size: 15px;
+	padding: 17px 35px;
+	
+	position: absolute;
+	right: 53%;
+	top: 27%;
+	
+}
